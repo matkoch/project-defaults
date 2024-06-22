@@ -1,0 +1,6 @@
+mode: mainline
+
+major-version-bump-message: 'BREAKING CHANGE$'
+minor-version-bump-message: '^feat'
+patch-version-bump-message: '^fix'
+no-bump-message: '.*'

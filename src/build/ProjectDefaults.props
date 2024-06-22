@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+
+  <!-- General -->
+  <PropertyGroup>
+    <TargetFrameworks Condition="'$(TargetFramework)' == '' And '$(TargetFrameworks)' == ''">net8.0</TargetFrameworks>
+    <LangVersion Condition="'$(LangVersion)' == ''">latest</LangVersion>
+
+    <Nullable Condition="'$(Nullable)' == ''">disable</Nullable>
+    <ImplicitUsings Condition="'$(ImplicitUsings)' == ''">enable</ImplicitUsings>
+
+    <SuppressNETCoreSdkPreviewMessage>true</SuppressNETCoreSdkPreviewMessage>
+    <CheckEolTargetFramework>false</CheckEolTargetFramework>
+  </PropertyGroup>
+
+  <!-- Warnings/Errors -->
+  <PropertyGroup>
+    <TreatWarningsAsErrors Condition="'$(Configuration)' == 'Release'">true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <!-- Global Tools -->
+  <PropertyGroup>
+    <PackAsTool Condition="'$(ToolCommandName)' != ''">true</PackAsTool>
+  </PropertyGroup>
+
+  <!-- Packaging -->
+  <PropertyGroup>
+    <NoPackageAnalysis>true</NoPackageAnalysis>
+
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+
+    <_HasLicense Condition="'$(PackageLicenseUrl)' != ''">true</_HasLicense>
+    <_HasLicense Condition="'$(PackageLicenseFile)' != ''">true</_HasLicense>
+    <_HasLicense Condition="'$(PackageLicenseExpression)' != ''">true</_HasLicense>
+    <PackageLicenseExpression Condition="'$(_HasLicense)' != 'true'">MIT</PackageLicenseExpression>
+
+    <DebugType Condition="$(DebugType) == ''">embedded</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <EmbedUntrackedSources>false</EmbedUntrackedSources>
+
+    <GenerateDocumentationFile Condition="'$(IsPackable)' != 'false'">true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All"/>
+  </ItemGroup>
+
+  <!-- Patch Files -->
+  <PropertyGroup>
+    <PatchFilesPath>$(MSBuildThisFileDirectory)\</PatchFilesPath>
+    <GitIgnorePath>$(PatchFilesPath).gitignore</GitIgnorePath>
+    <EditorConfigPath>$(PatchFilesPath).editorconfig</EditorConfigPath>
+    <NuGetConfigPath>$(PatchFilesPath)nuget.config</NuGetConfigPath>
+    <SharedDotSettingsPath>$(PatchFilesPath)Shared.DotSettings</SharedDotSettingsPath>
+    <SolutionDotSettignsPath>$(PatchFilesPath)Solution.DotSettings</SolutionDotSettignsPath>
+  </PropertyGroup>
+
+  <Target Name="PatchSettings" BeforeTargets="Build">
+    <Copy SourceFiles="$(GitIgnorePath)"
+          DestinationFiles="$(SolutionDir).gitignore"
+          SkipUnchangedFiles="true"/>
+    <Copy SourceFiles="$(EditorConfigPath)"
+          DestinationFiles="$(SolutionDir).editorconfig"
+          SkipUnchangedFiles="true"/>
+    <Copy Condition="'$(SolutionDir)' != '' And '$(SolutionDir)' != '*Undefined*' And !Exists('$(SolutionDir)nuget.config')"
+          SourceFiles="$(NuGetConfigPath)"
+          DestinationFiles="$(SolutionDir)nuget.config"
+          SkipUnchangedFiles="true"/>
+    <Copy Condition="'$(SolutionDir)' != '' And '$(SolutionDir)' != '*Undefined*'"
+          SourceFiles="$(SharedDotSettingsPath)"
+          DestinationFiles="$(SolutionDir)Shared.DotSettings"
+          SkipUnchangedFiles="true"/>
+    <Copy Condition="'$(SolutionPath)' != '' And '$(SolutionPath)' != '*Undefined*' And !Exists('$(SolutionPath).DotSettings')"
+          SourceFiles="$(SolutionDotSettignsPath)"
+          DestinationFiles="$(SolutionPath).DotSettings"
+          SkipUnchangedFiles="true"/>
+  </Target>
+
+  <Target Name="CheckLicense" BeforeTargets="Build">
+    <Error Condition="Exists('$(SolutionDir)tests')" Text="$(ScmRepositoryUrl)"/>
+  </Target>
+
+</Project>

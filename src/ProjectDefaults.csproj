@@ -1,0 +1,37 @@
+﻿<Project>
+
+    <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk"/>
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <PackageId>matkoch.project-defaults</PackageId>
+        <IsPackable>true</IsPackable>
+        <IncludeBuildOutput>false</IncludeBuildOutput>
+        <NoPackageAnalysis>true</NoPackageAnalysis>
+        <NoDefaultExcludes>true</NoDefaultExcludes>
+        <ContentTargetFolders>contentFiles</ContentTargetFolders>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+        <NoWarn>CS8021</NoWarn>
+        <NoBuild>true</NoBuild>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Content Include="build/*">
+            <Pack>true</Pack>
+            <PackagePath>build</PackagePath>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Remove="@(PackageReference)"/>
+    </ItemGroup>
+
+    <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk"/>
+
+    <Target Name="Compile"/>
+    <Target Name="CopyFilesToOutputDirectory"/>
+
+</Project>

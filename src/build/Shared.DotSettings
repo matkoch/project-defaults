@@ -1,0 +1,492 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=AppendToCollectionExpression/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArgumentsStyleAnonymousFunction/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArgumentsStyleLiteral/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArgumentsStyleNamedExpression/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArgumentsStyleOther/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArgumentsStyleStringLiteral/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArrangeAccessorOwnerBody/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArrangeAttributes/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArrangeConstructorOrDestructorBody/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArrangeDefaultValueWhenTypeEvident/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArrangeDefaultValueWhenTypeNotEvident/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArrangeLocalFunctionBody/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArrangeMethodOrOperatorBody/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArrangeMissingParentheses/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArrangeModifiersOrder/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArrangeNamespaceBody/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArrangeNullCheckingPattern/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArrangeObjectCreationWhenTypeEvident/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArrangeObjectCreationWhenTypeNotEvident/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArrangeRedundantParentheses/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArrangeStaticMemberQualifier/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArrangeThisQualifier/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArrangeTrailingCommaInMultilineLists/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArrangeTrailingCommaInSinglelineLists/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArrangeTypeMemberModifiers/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArrangeTypeModifiers/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArrangeVarKeywordsInDeconstructingDeclaration/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadAttributeBracketsSpaces/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadBracesSpaces/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadColonSpaces/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadCommaSpaces/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadControlBracesIndent/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadControlBracesLineBreaks/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadDeclarationBracesIndent/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadDeclarationBracesLineBreaks/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadEmptyBracesLineBreaks/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadExpressionBracesIndent/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadExpressionBracesLineBreaks/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadGenericBracketsSpaces/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadIndent/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadLinqLineBreaks/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadListLineBreaks/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadMemberAccessSpaces/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadNamespaceBracesIndent/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadParensLineBreaks/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadParensSpaces/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadPreprocessorIndent/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadSemicolonSpaces/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadSpacesAfterKeyword/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadSquareBracketsSpaces/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadSwitchBracesIndent/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadSymbolSpaces/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BuiltInTypeReferenceStyle/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BuiltInTypeReferenceStyleForMemberAccess/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=CompareNonConstrainedGenericWithNull/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ConvertClosureToMethodGroup/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ConvertConditionalTernaryExpressionToSwitchExpression/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ConvertConstructorToMemberInitializers/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ConvertIfStatementToConditionalTernaryExpression/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ConvertIfStatementToNullCoalescingAssignment/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ConvertIfStatementToNullCoalescingExpression/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ConvertIfStatementToReturnStatement/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ConvertIfStatementToSwitchStatement/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ConvertNullableToShortForm/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ConvertSwitchStatementToSwitchExpression/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ConvertToAutoProperty/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ConvertToAutoPropertyWhenPossible/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ConvertToAutoPropertyWithPrivateSetter/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ConvertToCompoundAssignment/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ConvertToLambdaExpression/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ConvertToLocalFunction/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ConvertToNullCoalescingCompoundAssignment/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ConvertToPrimaryConstructor/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ConvertToStaticClass/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ConvertToUsingDeclaration/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=DoubleNegationOperator/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=EmptyRegion/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=EnforceDoWhileStatementBraces/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=EnforceFixedStatementBraces/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=EnforceForeachStatementBraces/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=EnforceForStatementBraces/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=EnforceIfStatementBraces/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=EnforceLockStatementBraces/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=EnforceUsingStatementBraces/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=EnforceWhileStatementBraces/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ForCanBeConvertedToForeach/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ForeachCanBeConvertedToQueryUsingAnotherGetEnumerator/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ForeachCanBePartlyConvertedToQueryUsingAnotherGetEnumerator/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=IncorrectBlankLinesNearBraces/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=InlineOutVariableDeclaration/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=InlineTemporaryVariable/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=IntroduceOptionalParameters_002EGlobal/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=IntroduceOptionalParameters_002ELocal/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=InvertIf/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=InvokeAsExtensionMethod/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=JoinNullCheckWithUsage/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=LambdaExpressionMustBeStatic/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=LoopCanBeConvertedToQuery/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=MergeAndPattern/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=MergeConditionalExpression/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=MergeIntoLogicalPattern/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=MergeIntoNegatedPattern/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=MergeIntoPattern/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=MergeNestedPropertyPatterns/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=MergeSequentialChecks/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=MissingBlankLines/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=MissingIndent/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=MissingLinebreak/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=MissingSpace/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=MoveLocalFunctionAfterJumpStatement/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=MoveToExistingPositionalDeconstructionPattern/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=MoveVariableDeclarationInsideLoopCondition/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=MultipleSpaces/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=MultipleStatementsOnOneLine/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=MultipleTypeMembersOnOneLine/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=OutdentIsOffPrevLevel/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=PassStringInterpolation/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RawStringCanBeSimplified/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantAccessorBody/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantAlwaysMatchSubpattern/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantArrayCreationExpression/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantAttributeParentheses/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantAttributeUsageProperty/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantBlankLines/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantCollectionInitializerElementBraces/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantConfigureAwait/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantDeclarationSemicolon/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantDiscardDesignation/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantEmptyObjectCreationArgumentList/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantExplicitParamsArrayCreation/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantIfElseBlock/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantImmediateDelegateInvocation/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantLambdaSignatureParentheses/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantLinebreak/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantPatternParentheses/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantPropertyPatternClause/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantQueryOrderByAscendingKeyword/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantRangeBound/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantReadonlyModifier/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantSpace/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantStringInterpolation/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantToStringCallForValueType/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantTypeDeclarationBody/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantVerbatimPrefix/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantVerbatimStringPrefix/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RemoveRedundantBraces/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ReplaceAutoPropertyWithComputedProperty/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ReplaceConditionalExpressionWithNullCoalescing/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ReplaceObjectPatternWithVarPattern/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ReplaceSequenceEqualWithConstantPattern/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ReplaceSliceWithRangeIndexer/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ReplaceSubstringWithRangeIndexer/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ReplaceWithFieldKeyword/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ReplaceWithPrimaryConstructorParameter/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=SimilarAnonymousTypeNearby/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=SuggestDiscardDeclarationVarStyle/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=SuggestVarOrType_005FBuiltInTypes/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=SuggestVarOrType_005FElsewhere/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=SuggestVarOrType_005FSimpleTypes/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=SwapViaDeconstruction/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=TabsAndSpacesMismatch/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=TabsOutsideIndent/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=TryCastAlwaysSucceeds/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UnnecessaryWhitespace/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UseAwaitUsing/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UseCollectionExpression/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UseDeconstruction/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UseDiscardAssignment/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UseIndexFromEndExpression/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UseNameofExpression/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UseNameofExpressionForPartOfTheString/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UseNameofForDependencyProperty/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UseNameOfInsteadOfTypeOf/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UseNegatedPatternInIsExpression/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UseNegatedPatternMatching/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UseNullPropagation/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UseObjectOrCollectionInitializer/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UsePatternMatching/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UseRawString/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UseStringInterpolation/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UseSymbolAlias/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UseUnsignedRightShiftOperator/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UseUtf8StringLiteral/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UseVerbatimString/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UseWithExpressionToCopyAnonymousObject/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UseWithExpressionToCopyRecord/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UseWithExpressionToCopyStruct/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UseWithExpressionToCopyTuple/@EntryIndexedValue">WARNING</s:String>
+    <s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=WrongIndentSize/@EntryIndexedValue">WARNING</s:String>
+    <s:Int64 x:Key="/Default/CodeStyle/CodeFormatting/XmlDocFormatter/INDENT_SIZE/@EntryValue">2</s:Int64>
+    <s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/XmlDocFormatter/KeepUserLineBreaks/@EntryValue">False</s:Boolean>
+    <s:Int64 x:Key="/Default/CodeStyle/CodeFormatting/XmlDocFormatter/TAB_WIDTH/@EntryValue">2</s:Int64>
+    <s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/XmlDocFormatter/WrapBeforeAttr/@EntryValue">False</s:Boolean>
+    <s:String x:Key="/Default/CodeStyle/CSharpFileLayoutPatterns/Pattern/@EntryValue">&lt;Patterns xmlns="urn:schemas-jetbrains-com:member-reordering-patterns"&gt;
+  &lt;TypePattern DisplayName="Non-reorderable types" Priority="99999999"&gt;
+    &lt;TypePattern.Match&gt;
+      &lt;Or&gt;
+        &lt;And&gt;
+          &lt;Kind Is="Interface" /&gt;
+          &lt;Or&gt;
+            &lt;HasAttribute Name="System.Runtime.InteropServices.InterfaceTypeAttribute" /&gt;
+            &lt;HasAttribute Name="System.Runtime.InteropServices.ComImport" /&gt;
+          &lt;/Or&gt;
+        &lt;/And&gt;
+        &lt;Kind Is="Struct" /&gt;
+        &lt;HasAttribute Name="System.Runtime.InteropServices.StructLayoutAttribute" /&gt;
+        &lt;HasAttribute Name="JetBrains.Annotations.NoReorderAttribute" /&gt;
+      &lt;/Or&gt;
+    &lt;/TypePattern.Match&gt;
+  &lt;/TypePattern&gt;
+
+  &lt;TypePattern DisplayName="xUnit.net Test Classes" RemoveRegions="All"&gt;
+    &lt;TypePattern.Match&gt;
+      &lt;And&gt;
+        &lt;Kind Is="Class" /&gt;
+        &lt;HasMember&gt;
+          &lt;And&gt;
+            &lt;Kind Is="Method" /&gt;
+            &lt;HasAttribute Name="Xunit.FactAttribute" Inherited="True" /&gt;
+            &lt;HasAttribute Name="Xunit.TheoryAttribute" Inherited="True" /&gt;
+          &lt;/And&gt;
+        &lt;/HasMember&gt;
+      &lt;/And&gt;
+    &lt;/TypePattern.Match&gt;
+
+    &lt;Entry DisplayName="Fields"&gt;
+      &lt;Entry.Match&gt;
+        &lt;And&gt;
+          &lt;Kind Is="Field" /&gt;
+          &lt;Not&gt;
+            &lt;Static /&gt;
+          &lt;/Not&gt;
+        &lt;/And&gt;
+      &lt;/Entry.Match&gt;
+
+      &lt;Entry.SortBy&gt;
+        &lt;Readonly /&gt;
+        &lt;Name /&gt;
+      &lt;/Entry.SortBy&gt;
+    &lt;/Entry&gt;
+
+    &lt;Entry DisplayName="Constructors"&gt;
+      &lt;Entry.Match&gt;
+        &lt;Kind Is="Constructor" /&gt;
+      &lt;/Entry.Match&gt;
+
+      &lt;Entry.SortBy&gt;
+        &lt;Static/&gt;
+      &lt;/Entry.SortBy&gt;
+    &lt;/Entry&gt;
+
+    &lt;Entry DisplayName="Teardown Methods"&gt;
+      &lt;Entry.Match&gt;
+        &lt;And&gt;
+          &lt;Kind Is="Method" /&gt;
+          &lt;ImplementsInterface Name="System.IDisposable" /&gt;
+        &lt;/And&gt;
+      &lt;/Entry.Match&gt;
+    &lt;/Entry&gt;
+
+    &lt;Entry DisplayName="All other members" /&gt;
+
+    &lt;Entry DisplayName="Test Methods" Priority="100"&gt;
+      &lt;Entry.Match&gt;
+        &lt;And&gt;
+          &lt;Kind Is="Method" /&gt;
+          &lt;HasAttribute Name="Xunit.FactAttribute" Inherited="false" /&gt;
+          &lt;HasAttribute Name="Xunit.TheoryAttribute" Inherited="false" /&gt;
+        &lt;/And&gt;
+      &lt;/Entry.Match&gt;
+
+      &lt;Entry.SortBy&gt;
+        &lt;Name /&gt;
+      &lt;/Entry.SortBy&gt;
+    &lt;/Entry&gt;
+  &lt;/TypePattern&gt;
+
+  &lt;TypePattern DisplayName="NUnit Test Fixtures" RemoveRegions="All"&gt;
+    &lt;TypePattern.Match&gt;
+      &lt;And&gt;
+        &lt;Kind Is="Class" /&gt;
+        &lt;Or&gt;
+          &lt;HasAttribute Name="NUnit.Framework.TestFixtureAttribute" Inherited="true" /&gt;
+          &lt;HasAttribute Name="NUnit.Framework.TestFixtureSourceAttribute" Inherited="true" /&gt;
+          &lt;HasMember&gt;
+            &lt;And&gt;
+              &lt;Kind Is="Method" /&gt;
+              &lt;HasAttribute Name="NUnit.Framework.TestAttribute" Inherited="false" /&gt;
+              &lt;HasAttribute Name="NUnit.Framework.TestCaseAttribute" Inherited="false" /&gt;
+              &lt;HasAttribute Name="NUnit.Framework.TestCaseSourceAttribute" Inherited="false" /&gt;
+            &lt;/And&gt;
+          &lt;/HasMember&gt;
+        &lt;/Or&gt;
+      &lt;/And&gt;
+    &lt;/TypePattern.Match&gt;
+
+    &lt;Entry DisplayName="Setup/Teardown Methods"&gt;
+      &lt;Entry.Match&gt;
+        &lt;And&gt;
+          &lt;Kind Is="Method" /&gt;
+          &lt;Or&gt;
+            &lt;HasAttribute Name="NUnit.Framework.SetUpAttribute" Inherited="true" /&gt;
+            &lt;HasAttribute Name="NUnit.Framework.TearDownAttribute" Inherited="true" /&gt;
+            &lt;HasAttribute Name="NUnit.Framework.TestFixtureSetUpAttribute" Inherited="true" /&gt;
+            &lt;HasAttribute Name="NUnit.Framework.TestFixtureTearDownAttribute" Inherited="true" /&gt;
+            &lt;HasAttribute Name="NUnit.Framework.OneTimeSetUpAttribute" Inherited="true" /&gt;
+            &lt;HasAttribute Name="NUnit.Framework.OneTimeTearDownAttribute" Inherited="true" /&gt;
+          &lt;/Or&gt;
+        &lt;/And&gt;
+      &lt;/Entry.Match&gt;
+    &lt;/Entry&gt;
+
+    &lt;Entry DisplayName="All other members" /&gt;
+
+    &lt;Entry DisplayName="Test Methods" Priority="100"&gt;
+      &lt;Entry.Match&gt;
+        &lt;And&gt;
+          &lt;Kind Is="Method" /&gt;
+          &lt;HasAttribute Name="NUnit.Framework.TestAttribute" Inherited="false" /&gt;
+          &lt;HasAttribute Name="NUnit.Framework.TestCaseAttribute" Inherited="false" /&gt;
+          &lt;HasAttribute Name="NUnit.Framework.TestCaseSourceAttribute" Inherited="false" /&gt;
+        &lt;/And&gt;
+      &lt;/Entry.Match&gt;
+
+      &lt;Entry.SortBy&gt;
+        &lt;Name /&gt;
+      &lt;/Entry.SortBy&gt;
+    &lt;/Entry&gt;
+  &lt;/TypePattern&gt;
+
+  &lt;TypePattern DisplayName="Default Pattern"&gt;
+    &lt;Entry DisplayName="Public Delegates" Priority="100"&gt;
+      &lt;Entry.Match&gt;
+        &lt;And&gt;
+          &lt;Access Is="Public" /&gt;
+          &lt;Kind Is="Delegate" /&gt;
+        &lt;/And&gt;
+      &lt;/Entry.Match&gt;
+
+      &lt;Entry.SortBy&gt;
+        &lt;Name /&gt;
+      &lt;/Entry.SortBy&gt;
+    &lt;/Entry&gt;
+
+    &lt;Entry DisplayName="Public Enums" Priority="100"&gt;
+      &lt;Entry.Match&gt;
+        &lt;And&gt;
+          &lt;Access Is="Public" /&gt;
+          &lt;Kind Is="Enum" /&gt;
+        &lt;/And&gt;
+      &lt;/Entry.Match&gt;
+
+      &lt;Entry.SortBy&gt;
+        &lt;Name /&gt;
+      &lt;/Entry.SortBy&gt;
+    &lt;/Entry&gt;
+
+    &lt;Entry DisplayName="Static Fields and Constants"&gt;
+      &lt;Entry.Match&gt;
+        &lt;Or&gt;
+          &lt;Kind Is="Constant" /&gt;
+          &lt;And&gt;
+            &lt;Kind Is="Field" /&gt;
+            &lt;Static /&gt;
+          &lt;/And&gt;
+        &lt;/Or&gt;
+      &lt;/Entry.Match&gt;
+
+      &lt;Entry.SortBy&gt;
+        &lt;Kind&gt;
+          &lt;Kind.Order&gt;
+            &lt;DeclarationKind&gt;Constant&lt;/DeclarationKind&gt;
+            &lt;DeclarationKind&gt;Field&lt;/DeclarationKind&gt;
+          &lt;/Kind.Order&gt;
+        &lt;/Kind&gt;
+      &lt;/Entry.SortBy&gt;
+    &lt;/Entry&gt;
+
+    &lt;Entry DisplayName="Fields"&gt;
+      &lt;Entry.Match&gt;
+        &lt;And&gt;
+          &lt;Kind Is="Field" /&gt;
+          &lt;Not&gt;
+            &lt;Static /&gt;
+          &lt;/Not&gt;
+        &lt;/And&gt;
+      &lt;/Entry.Match&gt;
+
+      &lt;Entry.SortBy&gt;
+        &lt;Readonly /&gt;
+        &lt;Name /&gt;
+      &lt;/Entry.SortBy&gt;
+    &lt;/Entry&gt;
+
+    &lt;Entry DisplayName="Constructors"&gt;
+      &lt;Entry.Match&gt;
+        &lt;Kind Is="Constructor" /&gt;
+      &lt;/Entry.Match&gt;
+
+      &lt;Entry.SortBy&gt;
+        &lt;Static/&gt;
+      &lt;/Entry.SortBy&gt;
+    &lt;/Entry&gt;
+
+    &lt;Entry DisplayName="Properties, Indexers"&gt;
+      &lt;Entry.Match&gt;
+        &lt;Or&gt;
+          &lt;Kind Is="Property" /&gt;
+          &lt;Kind Is="Indexer" /&gt;
+        &lt;/Or&gt;
+      &lt;/Entry.Match&gt;
+    &lt;/Entry&gt;
+
+    &lt;Entry DisplayName="Interface Implementations" Priority="100"&gt;
+      &lt;Entry.Match&gt;
+        &lt;And&gt;
+          &lt;Kind Is="Member" /&gt;
+          &lt;ImplementsInterface /&gt;
+        &lt;/And&gt;
+      &lt;/Entry.Match&gt;
+
+      &lt;Entry.SortBy&gt;
+        &lt;ImplementsInterface Immediate="true" /&gt;
+      &lt;/Entry.SortBy&gt;
+    &lt;/Entry&gt;
+
+    &lt;Entry DisplayName="All other members" /&gt;
+
+    &lt;Entry DisplayName="Nested Types"&gt;
+      &lt;Entry.Match&gt;
+        &lt;Kind Is="Type" /&gt;
+      &lt;/Entry.Match&gt;
+    &lt;/Entry&gt;
+  &lt;/TypePattern&gt;
+&lt;/Patterns&gt;
+</s:String>
+    <s:Boolean x:Key="/Default/CodeStyle/CSharpUsing/SortUsingsWithSystemFirst/@EntryValue">False</s:Boolean>
+    <s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpCodeStyle/ARGUMENTS_LITERAL/@EntryValue">Named</s:String>
+    <s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpCodeStyle/ARGUMENTS_SKIP_SINGLE/@EntryValue">True</s:Boolean>
+    <s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpCodeStyle/ARGUMENTS_STRING_LITERAL/@EntryValue">Named</s:String>
+    <s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpCodeStyle/BRACES_FOR_DOWHILE/@EntryValue">RequiredForMultiline</s:String>
+    <s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpCodeStyle/BRACES_FOR_FOR/@EntryValue">RequiredForMultiline</s:String>
+    <s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpCodeStyle/BRACES_FOR_FOREACH/@EntryValue">RequiredForMultiline</s:String>
+    <s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpCodeStyle/BRACES_FOR_WHILE/@EntryValue">RequiredForMultiline</s:String>
+    <s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpCodeStyle/BUILTIN_TYPE_APPLY_TO_NATIVE_INTEGER/@EntryValue">True</s:Boolean>
+    <s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpCodeStyle/LOCAL_FUNCTION_BODY/@EntryValue">ExpressionBody</s:String>
+    <s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpCodeStyle/METHOD_OR_OPERATOR_BODY/@EntryValue">ExpressionBody</s:String>
+    <s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpCodeStyle/TRAILING_COMMA_IN_MULTILINE_LISTS/@EntryValue">True</s:Boolean>
+    <s:Int64 x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/BLANK_LINES_AFTER_CONTROL_TRANSFER_STATEMENTS/@EntryValue">1</s:Int64>
+    <s:Int64 x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/BLANK_LINES_AROUND_SINGLE_LINE_TYPE/@EntryValue">0</s:Int64>
+    <s:Int64 x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/BLANK_LINES_BEFORE_SINGLE_LINE_COMMENT/@EntryValue">1</s:Int64>
+    <s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/EMPTY_BLOCK_STYLE/@EntryValue">TOGETHER_SAME_LINE</s:String>
+    <s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/INDENT_BRACES_INSIDE_STATEMENT_CONDITIONS/@EntryValue">False</s:Boolean>
+    <s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/INDENT_PREPROCESSOR_IF/@EntryValue">USUAL_INDENT</s:String>
+    <s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/INDENT_PREPROCESSOR_OTHER/@EntryValue">USUAL_INDENT</s:String>
+    <s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/INDENT_PRIMARY_CONSTRUCTOR_DECL_PARS/@EntryValue">INSIDE</s:String>
+    <s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/INDENT_RAW_LITERAL_STRING/@EntryValue">INDENT</s:String>
+    <s:Int64 x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/KEEP_BLANK_LINES_IN_CODE/@EntryValue">1</s:Int64>
+    <s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/KEEP_EXISTING_EMBEDDED_ARRANGEMENT/@EntryValue">False</s:Boolean>
+    <s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/KEEP_EXISTING_EXPR_MEMBER_ARRANGEMENT/@EntryValue">False</s:Boolean>
+    <s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/KEEP_EXISTING_INITIALIZER_ARRANGEMENT/@EntryValue">False</s:Boolean>
+    <s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/KEEP_EXISTING_LIST_PATTERNS_ARRANGEMENT/@EntryValue">False</s:Boolean>
+    <s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/KEEP_EXISTING_PROPERTY_PATTERNS_ARRANGEMENT/@EntryValue">False</s:Boolean>
+    <s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/KEEP_EXISTING_SWITCH_EXPRESSION_ARRANGEMENT/@EntryValue">False</s:Boolean>
+    <s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/LINE_FEED_AT_FILE_END/@EntryValue">True</s:Boolean>
+    <s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/NESTED_TERNARY_STYLE/@EntryValue">COMPACT</s:String>
+    <s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/PLACE_FIELD_ATTRIBUTE_ON_SAME_LINE_EX/@EntryValue">IF_OWNER_IS_SINGLE_LINE</s:String>
+    <s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/PLACE_LINQ_INTO_ON_NEW_LINE/@EntryValue">False</s:Boolean>
+    <s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/PLACE_METHOD_ATTRIBUTE_ON_SAME_LINE_EX/@EntryValue">IF_OWNER_IS_SINGLE_LINE</s:String>
+    <s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/PLACE_SIMPLE_ANONYMOUSMETHOD_ON_SINGLE_LINE/@EntryValue">False</s:Boolean>
+    <s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/PLACE_SIMPLE_EMBEDDED_STATEMENT_ON_SAME_LINE/@EntryValue">NEVER</s:String>
+    <s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/PLACE_SIMPLE_METHOD_ON_SINGLE_LINE/@EntryValue">True</s:Boolean>
+    <s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/SPACE_WITHIN_LIST_PATTERN_BRACKETS/@EntryValue">True</s:Boolean>
+    <s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/STICK_COMMENT/@EntryValue">False</s:Boolean>
+    <s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_AFTER_DECLARATION_LPAR/@EntryValue">True</s:Boolean>
+    <s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_AFTER_INVOCATION_LPAR/@EntryValue">True</s:Boolean>
+    <s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_ARGUMENTS_STYLE/@EntryValue">CHOP_IF_LONG</s:String>
+    <s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_ARRAY_INITIALIZER_STYLE/@EntryValue">CHOP_ALWAYS</s:String>
+    <s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_BEFORE_ARROW_WITH_EXPRESSIONS/@EntryValue">True</s:Boolean>
+    <s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_BEFORE_FIRST_TYPE_PARAMETER_CONSTRAINT/@EntryValue">True</s:Boolean>
+    <s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_BEFORE_LINQ_EXPRESSION/@EntryValue">True</s:Boolean>
+    <s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_CHAINED_METHOD_CALLS/@EntryValue">WRAP_IF_LONG</s:String>
+    <s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_LINQ_EXPRESSIONS/@EntryValue">CHOP_ALWAYS</s:String>
+    <s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_LIST_PATTERN/@EntryValue">CHOP_IF_LONG</s:String>
+    <s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_OBJECT_AND_COLLECTION_INITIALIZER_STYLE/@EntryValue">CHOP_IF_LONG</s:String>
+    <s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_PARAMETERS_STYLE/@EntryValue">CHOP_IF_LONG</s:String>
+    <s:String x:Key="/Default/CustomTools/CustomToolsData/@EntryValue"></s:String>
+    <s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ECSharpKeepExistingMigration/@EntryIndexedValue">True</s:Boolean>
+    <s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ECSharpPlaceEmbeddedOnSameLineMigration/@EntryIndexedValue">True</s:Boolean>
+    <s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ECSharpUseContinuousIndentInsideBracesMigration/@EntryIndexedValue">True</s:Boolean>
+    <s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ESettingsUpgrade_002EMigrateBlankLinesAroundFieldToBlankLinesAroundProperty/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
