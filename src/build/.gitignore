@@ -9,5 +9,6 @@ obj/
 
 *.user
 *.received.txt
+local.settings.json
 
 .DS_Store
