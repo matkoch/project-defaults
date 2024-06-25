@@ -1,5 +1,6 @@
 /.idea
 /.vs
+/.nuke/temp
 
 node_modules/
 packages/
